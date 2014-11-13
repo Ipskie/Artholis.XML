@@ -14,14 +14,14 @@
 	<team color="red" max="30" max-ovefill="35">Red team</team>
 </teams>
 <spawns>
-    <spawn team="red" kit="red" yaw="90">
-        <cuboid min="-2,13,71" max="-9,13,78"/>
+    <spawn team="red" kit="red" yaw="-179.5">
+        <cuboid min="-246,4.5,246" max="-244,4.5,248"/>
     </spawn>
-    <spawn team="blue" kit="blue" yaw="-90">
-        <cuboid min="2,13,-71" max="9,13,-78"/>
+    <spawn team="blue" kit="blue" yaw="0">
+        <cuboid min="-244,4.5,66" max="-246,4.5,68"/>
     </spawn>
-    <default yaw="0">
-        <cuboid min="-1,16,-1" max="2,20,2"/>
+    <default yaw="-179">
+        <cuboid min="-246,29,156" max="-244,29,158"/>
     </default>
 </spawns>
 <kits>
@@ -82,7 +82,7 @@
 	<filter name="only-red">
 		<team>red</team>
 	</filter>
-	<filter name="no-glowstone">
+	<filter name="no-block">
 		<not>
 			<block>glowstone</block>
 			<block>redstone lamp on</block>
@@ -91,7 +91,7 @@
 	</filter>
 </filters>
 <regions>
-	<apply block="no-glowstone">
+	<apply block="no-block">
 		<cuboid min="oo,oo,oo" max="-oo,-oo,-oo"/>
 	</apply>
 	<cuboid name="red-spawn" min="-250,0,254" max="-240,24,240"/>
