@@ -10,8 +10,8 @@
 	<contributor contributation="XML">Qixit</contributor>
 </contributors>
 <teams>
-	<team color="blue" max="30" max-overfill="35">Blue Team</team>
-	<team color="red" max="30" max-ovefill="35">Red team</team>
+	<team id="blue" color="blue" max="30" max-overfill="35">Blue Team</team>
+	<team id="red" color="red" max="30" max-ovefill="35">Red Team</team>
 </teams>
 <spawns>
     <spawn team="red" kit="red" yaw="-179.5">
